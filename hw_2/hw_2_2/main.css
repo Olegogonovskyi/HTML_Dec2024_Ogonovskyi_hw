@@ -1,0 +1,17 @@
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.squander {
+    width: 100px;
+    height: 100px;
+    background: #fc0000;
+    transition: 100ms;
+}
+.squander:hover {
+    border-radius: 50%;
+    background: #7f7f7f;
+    transition: 100ms;
+}
