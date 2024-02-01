@@ -1,0 +1,18 @@
+.cards, .car {
+    display: flex;
+}
+.cards {
+    justify-content: flex-start;
+}
+.car {
+    width: 100px;
+    height: 75px;
+    background: #bbbaba;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.fontred {
+    color: #a83636;
+}
