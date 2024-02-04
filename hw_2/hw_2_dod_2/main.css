@@ -1,0 +1,11 @@
+.cards, .top, .bottom, .cardtop, .cardbottom {
+    display: flex;
+}
+.cards {
+    flex-direction: column;
+}
+.cardtop, .cardbottom {
+    background: darksalmon;
+    border: 2px indigo;
+
+}
