@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+main, footer, header, .mainbloks, .centrblock {
+    display: flex;
+
+}
+header, footer, .centrblock, .newsblock, .sponsorblock {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+header {
+    background: #D9D9D9;
+    height: 20vh;
+    }
+main {
+    height: 60vh;
+}
+
+footer {
+    background: #BDBDBD;
+    height: 20vh;
+}
+.newsblock {
+    background: #817C7C;
+    width: 20vw;
+
+}
+.contentblock {
+    flex-direction: column;
+    width: 60vw;
+}
+.sponsorblock {
+    background: #B7AEAE;
+    width: 20vw;
+}
+.contblockone {
+    background: #ABA8A8;
+    height: 30vh;
+}
+.contblocktwo {
+    background: #878484;
+    height: 30vh;
+}
