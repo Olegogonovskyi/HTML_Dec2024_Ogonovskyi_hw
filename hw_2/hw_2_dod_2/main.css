@@ -1,11 +1,32 @@
-.cards, .top, .bottom, .cardtop, .cardbottom {
-    display: flex;
+img {
+    height: 40%;
 }
-.cards {
+
+.cards, .top, .bottom, .cardtop, .cardbottom, .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top, .bottom, wrap {
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards, .wrap, .cardtop, .cardbottom {
     flex-direction: column;
 }
-.cardtop, .cardbottom {
-    background: darksalmon;
-    border: 2px indigo;
 
+.cardtop, .cardbottom {
+    height: 150px;
+    width: 100px;
+    margin: 10px;
+    border: #7f7f7f 2px solid;
+    border-radius: 10%;
+}
+
+.head {
+    max-width: 600px;
+    text-align: center;
 }
