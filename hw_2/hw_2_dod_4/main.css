@@ -1,0 +1,41 @@
+h1 {
+    font-size: 55px;
+}
+
+a {
+    font-size: 25px;
+    color: #0a0a0a;
+}
+
+.card > p {
+    width: 210px;
+}
+
+.wrap, .cardblock, .card {
+    display: flex;
+
+}
+
+.wrap, .card {
+    flex-direction: column;
+}
+
+.wrap {
+    margin: 50px;
+}
+
+.card {
+    height: 200px;
+    width: 500px;
+    padding: 100px 40px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: #0a0a0a 2px solid;
+    border-radius: 5px;
+}
+
+.cardblock {
+    justify-content: space-between;
+
+}
