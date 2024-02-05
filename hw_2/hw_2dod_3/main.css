@@ -1,0 +1,47 @@
+a {
+    color: #fdfdfd;
+}
+span {
+    background-color: #0a0a0a;
+    padding: 5px;
+    border-radius: 5px;
+}
+.wrap, .columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    border-radius: 10px;
+}
+.columns, .cards {
+    flex-direction: column;
+
+}
+.cards {
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+}
+.MainTex > h1 {
+    margin: 0px;
+}
+.MainTex > h5 {
+    margin: 0px;
+}
+.topleft {
+    background: #699BF7;
+}
+.topright {
+    background: #C7B9FF;
+}
+.bottleft {
+    background: #FFC700;
+}
+.bottright {
+    background: #FF8577;
+}
