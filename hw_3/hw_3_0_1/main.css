@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+main, .contentwrap, .spamwrap, header, footer, .contentbox, .spambox {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contentwrap, .spamwrap, header, footer {
+    flex-direction: column;
+}
+
+header, footer, .contentbox, .spambox {
+    align-items: center;
+}
+
+header {
+    background: #8D8484;
+}
+
+.contentwrap {
+    width: 75vw;
+}
+
+header, footer, .contentbox {
+    height: 20vh;
+}
+
+.greyred {
+    background: #776969;
+}
+
+.redest {
+    background: #643030;
+}
+
+.darkred {
+    background: #441818;
+}
+
+.spambox {
+    height: 30vh;
+    width: 25vw;
+}
+
+.pink {
+    background: #937575;
+}
+
+.darkpink {
+    background: #644C4C;
+}
+
+footer {
+    background: #BDBDBD;
+}
