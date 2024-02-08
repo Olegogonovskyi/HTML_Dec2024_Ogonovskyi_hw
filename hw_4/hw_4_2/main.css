@@ -3,29 +3,36 @@
 form, main, .entry, .fbentry, .endblock {
     display: flex;
 }
+
 form, main, .entry {
     flex-direction: column;
 }
+
 form, .entry, .endblock {
     justify-content: center;
     align-items: center;
 }
+
 main {
     height: 60vh;
     align-items: center;
     justify-content: space-evenly;
 }
+
 form {
     height: 50vh;
-        font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
 form, .endblock {
     width: 30vw;
     border: #b6b6b6 solid 1px;
 }
+
 .imagelogo img {
     height: 8vh;
 }
+
 input[type=text], input[type=password] {
     height: 4vh;
     width: 20vw;
@@ -34,15 +41,18 @@ input[type=text], input[type=password] {
     border-radius: 3px;
     background-color: #efeeee;
 }
+
 .fbentry {
     align-items: center;
     justify-content: space-around;
-    width: 17vw;
+    max-width: 17vw;
 }
+
 .entry {
     height: 10vh;
     justify-content: space-around;
 }
+
 button {
     width: 21vw;
     height: 3vh;
@@ -52,21 +62,31 @@ button {
     color: #fdfdfd;
     margin: 10px;
 }
+
 h5 {
     color: #8d8d8d;
 }
+
 .fbbloks img {
     height: 3vh;
+    margin-right: 1vw;
 }
+
 .bluetext, a {
-    font-size: 0.9em;
+    font-size: 1.2vw;
     text-decoration: none;
     color: #2456af;
 }
+
 .bluetext {
-    font-size: 0.75em;
+    font-size: 1vw;
 }
+
 .endblock {
-height: 6vh;
-    justify-content: space-around;
+    height: 6vh;
+    justify-content: center;
+}
+
+.endblock a {
+    margin-left: 1vw;
 }
