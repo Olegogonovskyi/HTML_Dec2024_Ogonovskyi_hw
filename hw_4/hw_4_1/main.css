@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+}
+
+h2, p, button {
+    font-family: 'KoHo', sans-serif;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+button {
+    font-size: 30px;
+    width: 27vh;
+    height: 8vh;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+}
+
+iframe {
+    width: 63vw;
+}
+
+.onescroll p {
+    font-size: 25px;
+}
+
+.prodelemments p {
+    font-size: 35px;
+}
+
+.secondscrollbox p {
+    font-size: 35px;
+    margin: 70px 0 0 0;
+}
+
+section, .wrapbox, .partswrap, .prisebloks, .priceblok, .prodelemments, .secondscrollbox, .secondscroll, .thirdscroll {
+    display: flex;
+
+}
+
+.onescroll, .partswrap, .secondscroll, .secondscrollbox, .priceblok, .prodelemments {
+    flex-direction: column;
+    align-items: center;
+}
+
+.onescroll, .partswrap, .thirdscroll, .priceblok, .prodelemments {
+    justify-content: center;
+}
+
+.secondscroll, .prisebloks {
+    justify-content: space-around;
+}
+
+.secondscrollbox {
+    justify-content: space-between;
+
+}
+
+.thirdscroll, .priceblok, .prodelemments {
+    align-items: center;
+}
+
+.onescroll {
+    height: 100vh;
+    background-image: url("image 4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.prisebloks, .wrapbox, .thirdscroll {
+    flex-direction: row;
+}
+
+.wrapbox {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.frontimg {
+    background-image: url("image 3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.frontblock {
+    background: #FAF9F7;
+}
+
+.frontblock h2 {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.partswrap {
+    width: 35vw;
+    height: 40vh;
+}
+
+.secondscroll, .thirdscroll {
+    height: 100vh;
+    background-image: url("Rectangle 4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.secondscrollbox {
+    width: 63vw;
+    height: 82vh;
+
+}
+
+.prisebloks {
+    width: 100vw;
+}
+
+.priceblok {
+    height: 70vh;
+    width: 30vw;
+    background: rgba(83, 83, 83, 0.40);
+
+}
+
+.priseimg {
+    width: 25vw;
+    height: 20vh;
+
+}
+
+.firstprod {
+    background-image: url("Rectangle 10 (1).jpg");
+    background-size: cover;
+
+}
+
+.buttonprod {
+    color: #6B6666;
+}
+
+.prodelemments {
+    width: 25vw;
+}
+
+.prodelemments p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.secondprod {
+    background-image: url("Rectangle 10.jpg");
+    background-size: cover;
+}
+
+.thidproddprod {
+    background-image: url("Rectangle 13.jpg");
+    background-size: cover;
+}
