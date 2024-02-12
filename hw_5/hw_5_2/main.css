@@ -1,0 +1,38 @@
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.listblock {
+    width: 15vw;
+}
+
+/*Для першого блоку: задай кожному парному елементу списку рожевий колір*/
+.lstone li:nth-child(even) {
+    color: hotpink;
+}
+
+/*Для другого блоку: задай кожному не парному елементу списку розмір 22px*/
+.lsttwo li:nth-child(odd) {
+    font-size: 22px;
+}
+
+/*Для третього блоку: задай кожному 2-му елементу,
+починаючи з 4-го елемента -  псевдоелемент :after та додай "!"
+до кожного з зазначених пунктів*/
+.lstthree li:nth-child(2n+4):after {
+    content: "!";
+}
+
+/*Для четвертого блоку: Задай фіолетовий колір для останнього елемента списку*/
+.lstfour li:last-child {
+    background: indigo;
+}
+
+/*Для п'ятого блоку: Задай розмір 30px для перших літер списка, а також зміни колір на червоний*/
+.lstfive li::first-letter {
+    font-size: 30px;
+    color: #fc0000;
+}
