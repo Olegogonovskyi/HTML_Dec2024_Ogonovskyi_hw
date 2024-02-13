@@ -1,0 +1,17 @@
+@media screen and (max-width: 500px) {
+    main {
+        flex-direction: column;
+    }
+    header, .fwrap, .cde {
+        height: 19vh;
+    }
+    .bwrap {
+        height: 38vh;
+    }
+    header, .bwrap, .fwrap {
+        width: 92vw;
+    }
+    .cde {
+        width: 28vw;
+    }
+}

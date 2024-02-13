@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+main, section, .cdewrap {
+    display: flex;
+    /*align-items: center;*/
+
+}
+section {
+    flex-direction: column;
+}
+header {
+    width: 99vw;
+}
+header, .bwrap, .cde {
+    height: 32vh;
+}
+.fwrap {
+    height: 65vh;
+}
+header, .bwrap, .cde, .fwrap {
+    background: #554C4C;
+}
+.bwrap {
+    width: 77vw;
+}
+.cde, .fwrap {
+    width: 25vw;
+}
+header, .fwrap, .cde, .bwrap {
+    margin: 0.5vh;
+}
