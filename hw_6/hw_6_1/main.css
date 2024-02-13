@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+header, .writesection, .leftsection {
+    border-radius: 10px;
+    background: #554C4C;
+    margin: 1vh;
+
+}
+
+header {
+    height: 32vh;
+}
+
+main {
+    display: flex;
+}
+
+.writesection, .leftsection {
+    height: 64vh;
+}
+
+.writesection {
+    width: 80vw;
+}
+
+.leftsection {
+    width: 20vw;
+}

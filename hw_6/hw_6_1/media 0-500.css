@@ -1,0 +1,15 @@
+@media screen and (max-width: 500px) {
+    main {
+        flex-direction: column;
+    }
+    .writesection, .leftsection {
+        width: 91vw;
+    }
+    header, .leftsection {
+        height: 19vh;
+    }
+    .writesection {
+        height: 56vh;
+    }
+}
+
