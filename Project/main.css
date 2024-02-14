@@ -1,0 +1,74 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    margin: 0;
+    background: #19191B;
+    font-family: "Lato", sans-serif;
+    color: #FFFFFF;
+
+}
+.pageone {
+    width: 83vw;
+    height: 95vh;
+}
+                                        /*Flex block*/
+ body, main, header, .headerbutton, .pageone, .headerlogo, .pageonecontent, .pageonecontentwrite, .headermenu   {
+    display: flex;
+}
+ body, main, .pageonecontentwrite, .pageone {
+     flex-direction: column;
+ }
+ body, main, .headerlogo, .headerbutton, .pageone, .pageonecontentwrite {
+     justify-content: center;
+ }
+.headerlogo, main, .headermenu, .headerbutton, .pageone {
+    align-items: center;
+}
+ header, .headermenu {
+     justify-content: space-between;
+ }
+                                          /*Flex block*/
+ .headerlogo p {
+     font-family: "Montserrat", sans-serif;
+     font-size: 28px;
+ }
+
+ header {
+     height: 4vh;
+     width: 83vw;
+      }
+ .headermenu {
+     width: 28vw;
+     font-size: 18px;
+ }
+ .headerbutton button {
+     width: 12vw;
+     height: 6vh;
+     font-size: 16px;
+     background: #19191B;
+     border: #fdfdfd solid 1px;
+
+ }
+ .buttonstyle, header {
+     color: #FFFFFF;
+     border-radius: 10px;
+ }
+
+ .pageonecontentwrite h1 {
+     font-size: 80px;
+     margin: 0;
+
+ }
+ .pageonecontentwrite p {
+     font-size: 21px;
+ }
+ .pageonecontentwrite button {
+     width: 15vw;
+     height: 6vh;
+     background: #5454D4;
+     border: none;
+     font-size: 20px;
+ }
