@@ -28,9 +28,12 @@ section {
 .borderradiusmain {
     border-radius: 10px;
 }
+.nondesk {
+    display: none;
+}
 
 /*----------------------------------------------Flex block-------------------------------*/
-body, main, header, .headerbutton, .section, footer, .pagetwocont, .pagetwoh, .pagefour, .pagefive, .bottbutt, .portfolioimg, .headerlogo, .imgthreeepage, .gridbloks, .pageonecontent, .pageonecontentwrite, .headermenu, .contbottom {
+body, main, header, .headerbutton, .section, footer, .pagetwocont, .pagetwo, .pagetwoh, .pagefour, .pagefive, .bottbutt, .portfolioimg, .headerlogo, .imgthreeepage, .gridbloks, .pageonecontent, .pageonecontentwrite, .headermenu, .contbottom {
     display: flex;
 }
 
@@ -38,7 +41,7 @@ body, main, .pageonecontentwrite, section, .gridbloks, .pagefour, .pagefive {
     flex-direction: column;
 }
 
-body, main, .headerlogo, .headerbutton, .pagefive, .contbottom, .imgthreeepage, .portfolioimg, .gridbloks, .pageone, .pageonecontentwrite, .pagetwo, .pagetwocont {
+body, main, .headerlogo, .pagetwo, .headerbutton, .pagefive, .contbottom, .imgthreeepage, .portfolioimg, .gridbloks, .pageone, .pageonecontentwrite, .pagetwo, .pagetwocont {
     justify-content: center;
 }
 
